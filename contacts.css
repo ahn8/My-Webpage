@@ -1,0 +1,99 @@
+.feedback-input {
+    color:white;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight:500;
+    font-size: 18px;
+    border-radius: 5px;
+    line-height: 22px;
+    background-color: transparent;
+    border:2px solid blue;
+    transition: all 0.3s;
+    padding: 13px;
+    margin-bottom: 15px;
+    width:100%;
+    box-sizing: border-box;
+    outline:0;
+  }
+
+  .feedback-input:focus { border:2px solid blue; }
+
+/* Add a black background color to the top navigation bar */
+.topnav {
+
+    background-color: blue;
+
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 10px 10px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: red;
+    color: blue;
+}
+
+/* Style the "active" element to highlight the current page */
+.topnav a.active {
+    background-color: red;
+    color: white;
+}
+
+/* Style the search box inside the navigation bar */
+.topnav input[type=text] {
+    float: right;
+    padding: 6px;
+    border: none;
+    margin-top: 8px;
+    margin-right: 16px;
+    font-size: 17px;
+}
+
+  textarea {
+    height: 150px;
+    line-height: 150%;
+    resize: vertical;
+  }
+  div nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+     float: none;
+     text-align: center;
+     overflow: hidden;
+}
+
+  [type="submit"] {
+    width: 100%;
+    background: blue;
+    border-radius:5px;
+    border:0;
+    cursor:pointer;
+    color:white;
+    font-size:24px;
+    padding-top:10px;
+    padding-bottom:10px;
+    transition: all 0.3s;
+    margin-top:-4px;
+    font-weight:700;
+  }
+  [type="submit"]:hover { background:blue; }
+footer {
+    padding-bottom: none;
+    text-align: center;
+    border: 20px;
+    border-bottom-color: blue;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
